@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { GoalsComponent } from './goals/goals.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {MaterialModule} from './materialModule'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
